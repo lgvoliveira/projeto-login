@@ -74,6 +74,7 @@ div#formulario > p {
 form > div.campo {
     display: block;
     background-color: var(--cor001);
+    border: 2px solid var(--cor001);
     width: 100%;
     height: 40px;
     border-radius: 5px;
@@ -93,11 +94,11 @@ form > input[type=submit] {
     color: white;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 form > input[type=submit]:hover {
     background-color: #2d6462;
-    cursor: pointer;
 }
 
 form > a.botao {
